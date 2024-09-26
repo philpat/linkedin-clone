@@ -9,9 +9,9 @@ import MyNetwork from "./pages/MyNetwork";
 function App() {
   return (
     <Routes>
-      <Route path="/home" element={<Home />} />
-      <Route path="/" element={<Signup />} />
-      <Route path="/login" element={<Login />} />
+      <Route path="/" element={<Home />} />
+      {/* <Route path="/" element={<Signup />} /> */}
+      {/* <Route path="/login" element={<Login />} /> */}
       <Route path="/network" element={<MyNetwork />} />
       <Route path="/forgotpassword" element={<Forgotpassword />} />
     </Routes>
